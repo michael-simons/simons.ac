@@ -14,8 +14,7 @@
  * limitations under the License.
  */
 import React from 'react'
-import { Location } from '@reach/router'
-import { Link } from 'gatsby'
+import { Location, Link } from '@reach/router'
 import PropTypes from 'prop-types'
 
 const Header = ({ siteTitle }) => (
