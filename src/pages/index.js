@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright 2009-2019 Michael J. Simons.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,8 +24,8 @@ import Member from '../components/member'
 export const query = graphql`query {
   anton: allFile(
     filter: {
-      sourceInstanceName: {eq: "images"}, 
-      relativePath: {regex: "/portraits/anton/.*/"}}, 
+      sourceInstanceName: {eq: "images"},
+      relativePath: {regex: "/portraits/anton/.*/"}},
     sort: {fields: name, order: DESC}
     limit:1
   ) {
@@ -37,8 +37,8 @@ export const query = graphql`query {
   }
   oskar: allFile(
     filter: {
-      sourceInstanceName: {eq: "images"}, 
-      relativePath: {regex: "/portraits/oskar/.*/"}}, 
+      sourceInstanceName: {eq: "images"},
+      relativePath: {regex: "/portraits/oskar/.*/"}},
     sort: {fields: name, order: DESC}
     limit:1
   ) {
@@ -57,7 +57,7 @@ export default ({data}) => (
       <Member name="Tina" userOnDailyFratze="tina">
         <p>Jahrgang 1981, ist von Kreuzau über Jülich nach Aachen gezogen.</p>
         <p>Täglich neue Fotos gibt es neben gelegentlichem Bloggen auf <a href="http://dailyfratze.de/tina">Tinas täglicher Fratze</a>.</p>
-        <p>Tina ist unter <a href="mailto:tina@simons.ac">tina@simons.ac</a> erreichbar.</p>    
+        <p>Tina ist unter <a href="mailto:tina@simons.ac">tina@simons.ac</a> erreichbar.</p>
       </Member>
 
       <Member name="Michael" userOnDailyFratze="michael">
@@ -84,7 +84,7 @@ export default ({data}) => (
 
       <div className="col-xs-12">
         <p>Wir bloggen in unregelmässigen Abständen in unserem Familienblog: <a href="http://blog.simons.ac">blog.simons.ac</a>.</p>
-      </div>          
+      </div>
     </div>
   </Layout>
 )

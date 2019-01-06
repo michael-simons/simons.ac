@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright 2009-2019 Michael J. Simons.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -60,13 +60,14 @@ export default ({data}) => {
       <Meta title="Lifelines" />
       <div className="jumbotron">
         <h1>Lifelines</h1>
-        <p className="lead">
-          Back in October 2000, 2 lifelines crossed in Jülich. 
-          Starting as an improbable relationship we've ended up as 4 people. 
-          2009 our first son Anton was born, shortly thereafter we bought a house and in 2013, our second son Oskar came into this world. 
-          Much has changed ever since, but we still love, laugh and fight with and each other.</p>
+        <p className="lead">`
+          Back in October 2000, 2 lifelines crossed in Jülich.
+          Starting as an improbable relationship we've ended up as 4 people.
+          2009 our first son Anton was born, shortly thereafter we bought a house and in 2013, our second son Oskar came into this world.
+          Much has changed ever since, but we still love, laugh and fight with and each other.
+        `</p>
       </div>
-    
+
       <Lifelines data={lifelines} />
     </Layout>
   )
