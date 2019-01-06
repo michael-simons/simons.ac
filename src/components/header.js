@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
       <Location>
         {({ location }) => (      
           <ul className="nav nav-pills pull-right">
-            <li role="presentation" className={location.pathname==="/lifelines" ? "active" : ""}><Link to="/lifelines">Lifelines</Link></li>
+            <li role="presentation" className={location.pathname.startsWith("/lifelines") ? "active" : ""}><Link to="/lifelines">Lifelines</Link></li>
             <li role="presentation" className={location.pathname==="/" ? "active" : ""}><Link to="/">Home</Link></li>
           </ul>
         )}

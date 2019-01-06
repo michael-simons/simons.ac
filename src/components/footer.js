@@ -17,7 +17,7 @@ import React from 'react'
 
 const Footer = () => (
   <footer className="footer">
-    <p><a href="http://blog.simons.ac">Blog</a> | <a href="http://mail.simons.ac">Mail</a> | <a href="http://cal.simons.ac">Kalendar</a></p>
+    <p><a href="https://github.com/michael-simons/simons.ac">Source</a> | <a href="http://blog.simons.ac">Blog</a> | <a href="http://mail.simons.ac">Mail</a> | <a href="http://cal.simons.ac">Kalendar</a></p>
     <p>&copy; 2009-{new Date().getFullYear()} <a href="http://michael-simons.eu">Michael Simons</a><br /> </p>
   </footer>
 )
